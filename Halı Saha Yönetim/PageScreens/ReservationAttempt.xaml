@@ -26,7 +26,7 @@
             <ComboBoxItem>Kapalı Saha</ComboBoxItem>
         </ComboBox>
 
-        <Label Foreground="Black" Margin="10,139,580,281">Rezervasyon Sahibi Bilgilerini Giriniz: </Label>
+        <Label Foreground="Black" Margin="10,139,580,281">Rezervasyon Sahibi: </Label>
         <TextBox Margin="143,139,314,111" />
         <Label Foreground="Black" Margin="10,404,562,10">Halı Saha Ücreti: </Label>
         <Button Name="btnSaveResAttempt" Content="Kaydet" Click="BtnSaveResAttempt_Click" Margin="592,404,10,10" />

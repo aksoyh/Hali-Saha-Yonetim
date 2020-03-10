@@ -13,7 +13,8 @@
         <Label Margin="10,10,559,400">Halı Saha Adı Giriniz:</Label>
         <TextBox Name="txtHaliSahaName" Background="LightYellow" Margin="146,100,404,310" />
         <Button Name="haliSaha" Content="Halı Saha Ekle" Click="HaliSaha_Click" Margin="301,10,206,400"/>
-        <Label Margin="10,100,559,310">Saha fiyatı giriniz: (öncelikle saha seçiniz)</Label>
+        <Label Margin="10,100,559,310">Saha fiyatı giriniz:</Label>
+        <Label Name="settings_warning" Margin="10,122,559,288" Visibility="Hidden" Foreground="Red">öncelikle saha seçiniz</Label>
         <TextBox Name="txtPrice" Background="LightYellow" Margin="146,10,404,400" />
         <ComboBox Margin="301,100,206,310" SelectedItem="Cmb_Selected_For_Add_Price">
             <ComboBoxItem>Küçük Saha</ComboBoxItem>

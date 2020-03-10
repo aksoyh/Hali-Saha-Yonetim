@@ -27,12 +27,18 @@ namespace Halı_Saha_Yönetim.PageScreens
 
         private void HaliSaha_Click(object sender, RoutedEventArgs e)
         {
-
+            if(txtPrice.Text == null || txtPrice.Text == "")
+            {
+                MessageBox.Show("Fiyat giriniz!");
+            }
         }
 
         private void BtnSaveSettings_Click(object sender, RoutedEventArgs e)
         {
-
+            if(txtHaliSahaName.Text == null || txtHaliSahaName.Text == "")
+            {
+                settings_warning.Visibility = Visibility.Visible;
+            }
         }
     }
 }
