@@ -27,6 +27,21 @@ namespace Halı_Saha_Yönetim.PageScreens
 
         private void BtnSaveResAttempt_Click(object sender, RoutedEventArgs e)
         {
+            //MessageBox.Show("Seçtiğiniz saate rezervasyon dolu!");
+
+            if(cmbSaat.SelectedItem == null || cmbSaha.SelectedItem == null)
+            {
+                //MessageBox.Show("Tüm alanları eksiksiz giriniz.");
+            }
+        }
+
+        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void CmbSaha_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
 
         }
     }

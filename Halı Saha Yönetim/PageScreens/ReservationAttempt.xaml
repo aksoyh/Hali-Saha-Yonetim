@@ -12,7 +12,7 @@
     <Grid>
         <Label Foreground="Black" Margin="10,10,580,410">Tarih Seçin</Label>
         <Label Foreground="Black" Margin="10,50,562,370">Saat Seçin</Label>
-        <ComboBox Margin="143,50,314,370">
+        <ComboBox Name="cmbSaat" Margin="143,50,314,370" SelectionChanged="ComboBox_SelectionChanged">
             <ComboBoxItem>09.00-10.00</ComboBoxItem>
             <ComboBoxItem>10.00-11.00</ComboBoxItem>
             <ComboBoxItem>11.00-12.00</ComboBoxItem>
@@ -20,7 +20,7 @@
             <ComboBoxItem>13.00-14.00</ComboBoxItem>
         </ComboBox>
         <Label Foreground="Black" Margin="10,90,562,330">Halı Saha Seçin</Label>
-        <ComboBox Margin="143,90,314,330" RenderTransformOrigin="0.52,1.162">
+        <ComboBox Name="cmbSaha" Margin="143,90,314,330" RenderTransformOrigin="0.52,1.162" SelectionChanged="CmbSaha_SelectionChanged">
             <ComboBoxItem>Küçük Saha</ComboBoxItem>
             <ComboBoxItem>Büyük Saha</ComboBoxItem>
             <ComboBoxItem>Kapalı Saha</ComboBoxItem>

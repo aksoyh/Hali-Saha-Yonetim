@@ -39,6 +39,15 @@ namespace Halı_Saha_Yönetim.PageScreens
             {
                 settings_warning.Visibility = Visibility.Visible;
             }
+            if(cmbSaha.SelectedItem == null)
+            {
+                MessageBox.Show("Lütfen önce saha seçiniz!");
+            }
+        }
+
+        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }
